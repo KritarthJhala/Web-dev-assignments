@@ -4,9 +4,9 @@ I built this portfolio as my first online resume. It's a simple, single static H
 
 I used semantic HTML tags to organize everything clearly:
 
-The Header has the title and a navigation bar ("<nav>").
+The Header has the title and a navigation bar (nav).
 
-The Main content is split into different sections ("<section>"):
+The Main content is split into different sections (section):
 
 About Me: My bio and profile picture.
 
