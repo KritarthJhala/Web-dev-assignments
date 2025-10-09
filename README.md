@@ -21,7 +21,7 @@ The Footer has a useful "Back to Top" link.
 The main goal is to be a professional, organized online showcase of my early technical skills and development projects.
 
 
-
+------------------------------------------------------------------------------------------------------------------------
 
 
 ASSIGNMENT LAB 2
