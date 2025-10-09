@@ -4,15 +4,15 @@ I built this portfolio as my first online resume. It's a simple, single static H
 
 I used semantic HTML tags to organize everything clearly:
 
-The Header has the title and a navigation bar (<nav>).
+The Header has the title and a navigation bar ("<nav>").
 
-The Main content is split into different sections (<section>):
+The Main content is split into different sections ("<section>"):
 
 About Me: My bio and profile picture.
 
-Technical Proficiency: A table listing my skills, like Python (Advanced).
+Technical Proficiency: A table listing my skills
 
-Projects: Details on things I've built, like the Student Registration System (Python + SQL).
+Projects: Details on projects I've built.
 
 Contact Me: Includes a working contact form.
 
