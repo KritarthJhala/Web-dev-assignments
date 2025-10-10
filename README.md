@@ -47,3 +47,7 @@ The skills table and project cards are visually cleaner and better contained.
 The contact form is centered and clearly styled for better user experience.
 
 The core purpose remains to serve as a professional, well-organized digital showcase of my foundational coding work, but it now has a significantly cleaner and more responsive design using the external CSS.
+<img width="1919" height="1079" alt="Screenshot 2025-10-10 123659" src="https://github.com/user-attachments/assets/e66af05b-d8e9-4bbe-83be-3aa1ca6951e6" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-10 123714" src="https://github.com/user-attachments/assets/125aa7b0-f4bf-42d6-b1ca-a3b262a7f84c" />
+
+
