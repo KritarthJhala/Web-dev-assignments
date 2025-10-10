@@ -19,6 +19,8 @@ Contact Me: Includes a working contact form.
 The Footer has a useful "Back to Top" link.
 
 The main goal is to be a professional, organized online showcase of my early technical skills and development projects.
+<img width="1919" height="1079" alt="Screenshot 2025-10-10 123412" src="https://github.com/user-attachments/assets/887437b6-1e68-45c7-b4ec-33e81f165b59" />
+
 
 
 ------------------------------------------------------------------------------------------------------------------------
