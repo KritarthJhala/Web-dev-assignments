@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Lab3.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">My Portfolio</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="subtitle">Hi, I am</p>
+          <h1 class="titlename">Kritarth Jhala</h1>
+          <h1 class="title">Full Stack Developer</h1>
+          <p class="intro">Hello! My name is Kritarth Jhala, and I am currently learning web development.
+            This is my first portfolio website where I showcase my passion for creating interactive
+            and responsive web pages.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image" aria-label="Profile illustration">
+          <!-- using uploaded image path as requested -->
+          <img src="profile_pic.jpg" alt="Profile illustration">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-copy">I'm a first-year CSE student exploring full-stack development, with a solid foundation in Python and a curiosity for web technologies.
+            Outside of coding, I enjoy gaming, playing football, and competing in chess—all of which keep me sharp and active. I'm also a big F1 fan, inspired by its focus on speed,
+            precision, and innovation—qualities I strive to bring to my development work.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="grid skills-grid">
+          <div class="card skill-card">
+            <h3>HTML</h3>
+            <p>Intermediate</p>
+          </div>
+          <div class="card skill-card">
+            <h3>CSS</h3>
+            <p>Intermediate</p>
+          </div>
+          <div class="card skill-card">
+            <h3>JavaScript</h3>
+            <p>Beginner</p>
+          </div>
+          <div class="card skill-card">
+            <h3>Python</h3>
+            <p>Advanced</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="grid projects-grid">
+          <article class="card project-card">
+            <h3>Student Registration System (Python + SQL)</h3>
+            <p class="muted">A student detail registration system using Python and SQL, handling data input, storage, and retrieval.</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Daily Calorie Tracker (Python)</h3>
+            <p class="muted">A daily calorie tracker using Python, allowing users to input meals, track daily intake, and monitor progress over time.</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Portfolio Website (HTML+CSS)</h3>
+            <p class="muted">A responsive one page portfolio built with Flexbox and CSS grid. Includes subtle animations and accessible markup.</p>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-wrap">
+          <form class="contact-form" action="#" method="post">
+            <label>
+              <span class="label-text">Name</span>
+              <input type="text" name="name" placeholder="Enter your name" required />
+            </label>
+            <label>
+              <span class="label-text">Email</span>
+              <input type="email" name="email" placeholder="Enter your email" required />
+            </label>
+            <label>
+              <span class="label-text">Message</span>
+              <textarea name="message" rows="5" placeholder="Write your message" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send</button>
+            </div>
+          </form>
+
+          <aside class="contact-info">
+            <p>Or reach me on social media:</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/kritarth-jhala-36586b397" aria-label="LinkedIn">LinkedIn</a>
+              <br>
+              <a href="https://github.com/KritarthJhala" aria-label="GitHub">GitHub</a>
+              <br>
+              <a href="https://www.instagram.com/kritarth.jhala" aria-label="Instagram">Instagram</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>©2025 Kritarth Jhala. All rights reserved.</p>
+      <nav class="nav">
+        <a href="#home">Back to top</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
+
